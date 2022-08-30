@@ -1,0 +1,21 @@
+.container {
+  max-width: 1176px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+a {
+  color: #000;
+}
+button {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 0;
+  background: transparent
+}
+.title {
+  @extend %Lexend-SemiBold-600;
+  font-size: 44px;
+  line-height: 120%;
+  color: #040522;
+}
