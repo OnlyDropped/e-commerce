@@ -18,6 +18,9 @@ $('.categories__slider').slick({
       breakpoint: 376,
       settings: {
         centerPadding: '30px',
+        autoplay: true,
+        autoplaySpeed: 4500,
+        cssEase: 'cubic-bezier(0.600, -0.280, 0.735, 0.045)',
       }
     }
   ]
