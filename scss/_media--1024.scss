@@ -2,4 +2,55 @@
   .header {
     background-position-x: right;
   }
+  .categories {
+    &__inner {
+      padding: 70px 0px;
+    }
+  }
+  .arrival {
+    &__inner {
+      padding: 60px 0 50px;
+    }
+    &__content {
+      align-items: flex-start;
+    }
+    &__head {
+      margin-bottom: 55px;
+    }
+    &__wrapper {
+      max-width: 600px;
+      margin-left: 25px;
+      gap: 25px;
+      .arrival__img {
+        width: 285px;
+        height: 290px;
+      }
+    }
+    &__wrap {
+      .arrival__img {
+        height: 606px;
+        object-fit: cover;
+      }
+    }
+  }
+  .products {
+    &__inner {
+      padding: 50px 0;
+    }
+  }
+  .brand {
+    &__inner {
+      padding-top: 50px;
+    }
+  }
+  .blog {
+    &__inner {
+      padding: 85px 0;
+    }
+    &__content {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
 }

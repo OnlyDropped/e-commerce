@@ -7,6 +7,20 @@ $('.categories__slider').slick({
   speed: 500,
   dots: true,  
   cssEase: 'linear',
+  responsive: [
+    {
+      breakpoint: 769,
+      settings: {
+        centerPadding: '150px',
+      }
+    },
+    {
+      breakpoint: 376,
+      settings: {
+        centerPadding: '30px',
+      }
+    }
+  ]
 })
 
 $('.header-top__btn').on('click', function () {

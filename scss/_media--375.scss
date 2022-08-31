@@ -14,11 +14,144 @@
     max-width: 100%;
     margin-top: auto;
     padding-top: 0;
-    margin-top: auto;
-    padding-bottom: 60px;
+    margin: auto 0;
+    padding-bottom: 25px;
     &__title {
       font-size: 40px;
       line-height: 115%;
+    }
+  }
+  .categories {
+    &__inner {
+      padding: 35px 0px;
+    }
+    .container {
+      padding: 0;
+    }
+    &__item {
+      width: 300px;
+      margin: 0 auto;
+    }
+    &__card {
+      width: 300px;
+      margin: 0 auto;
+    }
+    &__img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .slick-slide[aria-hidden="true"] {
+      opacity: 0.5;
+    }
+    .slick-dots {
+      bottom: -25px;
+    }
+  }
+  .arrival {
+    &__inner {
+      padding: 40px 0px;
+    }
+    .container {
+      padding: 0;
+    }
+    &__title {
+      font-size: 35px;
+    }
+    &__head {
+      margin-bottom: 40px;
+    }
+    &__view {
+      font-size: 18px;
+      line-height: 130%;
+    }
+    &__wrap .arrival__img {
+      width: 224px;
+      height: 440px;
+    }
+    &__wrapper {
+      gap: 0;
+      margin-left: 0;
+      .arrival__img {
+        width: 50%;
+        height: 220px;
+      }
+    }
+  }
+  .products {
+    &__inner {
+      padding: 40px 0;
+    }
+    &__title {
+      font-size: 34px;
+      line-height: 110%;
+    }
+  }
+  .speciality {
+    &__inner {
+      padding: 40px 0;
+    }
+    .container {
+      padding: 0 15px;
+    }
+    &__title {
+      font-size: 40px;
+      line-height: 110%;
+    }
+    &__content {
+      flex-direction: column;
+    }
+    &__item {
+      margin: 0px;
+      border: 1px solid rgba($color: #000, $alpha: 0.4);
+      & + .speciality__item {
+        margin-top: 15px;
+      }
+    }
+  }
+  .brand {
+    .arrival__title {
+      font-size: 30px;
+    }
+    .arrival__view {
+      font-size: 15px;
+      line-height: 115%;
+    }
+    &__content {
+      gap: 20px;
+      justify-content: center;
+    }
+  }
+  .blog {
+    .container {
+      padding: 0 15px;
+    }
+    &__inner {
+      padding: 35px 0;
+    }
+    &__content {
+      flex-direction: column;
+    }
+    &__card {
+      overflow: hidden;
+      margin: 0;
+      //box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.45);
+      & + .blog__card {
+        margin-top: 15px;
+      }
+    }
+    &__top {
+      padding: 0px;
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+  }
+  .footer {
+    &__inner {
+      padding: 40px 0;
+      flex-direction: column;
+      gap: 15px;
     }
   }
 }
