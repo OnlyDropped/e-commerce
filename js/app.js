@@ -9,4 +9,8 @@ $('.categories__slider').slick({
   cssEase: 'linear',
 })
 
+$('.header-top__btn').on('click', function () {
+  $('.header-top__info').toggleClass('header-top__info--show');
+  $('.header-top__btn').toggleClass('header-top__btn--show');
+})
 

@@ -5,8 +5,7 @@
 
 .header {
   height: 100vh;
-  background: url("../img/bg.png");
-  background-position: center;
+  background: url("../img/bg.png") center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -19,6 +18,11 @@
   &__list {
     display: flex;
     align-items: center;
+  }
+  &__btn{
+    display: none;
+    cursor: pointer;
+    z-index: 5;
   }
   &__info {
     max-width: 656px;
@@ -452,4 +456,6 @@
     @extend %Poppins-Regular-400;
   }
 }
-@import "media";
+@import "media--1024";
+@import "media--768";
+@import "media--375";
