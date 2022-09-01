@@ -963,11 +963,23 @@ button {
   .categories .slick-slide[aria-hidden="true"] {
     opacity: 0.1;
   }
+  .arrival .container {
+    padding: 0;
+  }
+  .arrival__head {
+    padding: 0 15px;
+  }
   .arrival__wrapper {
-    max-width: 300px;
+    max-width: 100%;
+    margin-left: 0;
+    gap: 0;
   }
   .arrival__wrapper .arrival__img {
-    width: 300px;
+    width: 50%;
+  }
+  .arrival__wrap .arrival__img {
+    width: 375px;
+    height: 580px;
   }
   .speciality__inner {
     padding: 50px 0;
